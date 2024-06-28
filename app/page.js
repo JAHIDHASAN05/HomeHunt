@@ -12,14 +12,14 @@ import Footer from "./components/shared/Footer/Footer";
 export default function Home() {
   return (
   <main>
-   <Banner/>
+   {/* <Banner/>
     <WhyUsSection/>
     <FeaturedProperties/>
     <FindProperties/>
-    <HowItWorkSection/> 
-    <WhatOurCustomerSaySection/>
+    <HowItWorkSection/> */}
+    <WhatOurCustomerSaySection/> 
     <BestPropertySection/>
-    {/* <Footer/> */}
+    <Footer/>
   </main>
   );
 }
