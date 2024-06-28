@@ -8,3 +8,14 @@
   padding: 0;
   /* border: 1px solid red; */
 }
+
+
+/* Add this to your global CSS file or the component's CSS file */
+.swiper-pagination-bullet {
+  background: #dd0505;
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
