@@ -21,7 +21,7 @@ const FindProperties = () => {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto py-20 text-center">
+        <div className="max-w-7xl mx-auto py-20 text-center bg-[#F7F7F7]">
             <h2 className="text-3xl font-bold  mb-3">Find Properties in These Cities</h2>
             <p className="text-gray-600 mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <Swiper
