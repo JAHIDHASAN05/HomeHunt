@@ -56,16 +56,7 @@ const WhatOurCustomerSaySection = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-            <div className="py-12 border-t border-black border-opacity-10 w-full">
+            <div className="py-12 pb-28 border-t border-black border-opacity-10 w-full">
                 <p className=" mb-4">Thousands of world &lsquo;s leading companies trust Space</p>
                 <div className="flex justify-evenly flex-wrap gap-5  items-center ">
                     <FaAmazon size={40} className='mx-8' />
