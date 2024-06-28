@@ -7,12 +7,12 @@ const BestPropertySection = () => {
     return (<>
       
 
-        <section className="bg-gray-900 text-white  p-20  ">
+        <section className="bg-gray-900 text-white  md:p-20  ">
         <div className="text-center mb-8">
                 <h2 className="text-2xl font-bold mb-4">Best Properties</h2>
                 <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className="container mx-auto flex gap-8 px-10  max-w-5xl">
+            <div className="container mx-auto flex flex-col md:flex-row gap-8 md:px-10 p-3  max-w-5xl">
                 <div className="flex flex-col  basis-1/2 ">
                     <div className="relative overflow-hidden rounded-lg shadow-lg  h-full">
                         <img src="https://as1.ftcdn.net/v2/jpg/07/50/76/28/1000_F_750762887_otJ80yYd6RHpbN4y5qh5WFasmCePhp5q.jpg" alt="Villa One Hyde Park" className="w-full h-full object-cover" />
@@ -34,7 +34,7 @@ const BestPropertySection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-1/2 justify-between ">
+                <div className="flex flex-col basis-1/2  justify-between   ">
                     <div className="relative h-3/5  overflow-hidden rounded-lg shadow-lg mb-4">
                         <img fill src="https://as1.ftcdn.net/v2/jpg/07/50/76/28/1000_F_750762887_otJ80yYd6RHpbN4y5qh5WFasmCePhp5q.jpg" alt="Living Room" className=" object-cover" />
                         {/* <button className="absolute inset-0 flex items-center justify-center text-gray-800 bg-white bg-opacity-75 hover:bg-opacity-50 transition duration-300">
@@ -48,12 +48,12 @@ const BestPropertySection = () => {
                                 <span className="material-icons">play_arrow</span>
                             </button> */}
                         </div>
-                        <div className="bg-yellow-500 w-1/2 p-6 rounded-lg shadow-lg text-gray-900">
-                            <h3 className="text-2xl font-bold mb-4">280+ <br /> <span className='text-sm font-medium'>Properties</span></h3>
-                            <p className="mb-4 text-sm">Explore our wide variety of properties to find your dream home today.</p>
+                        <div className="bg-yellow-500 w-1/2 md:p-6 rounded-lg shadow-lg text-gray-900">
+                            <h3 className="md:text-2xl font-bold md:mb-4">280+ <br /> <span className='md:text-sm font-medium'>Properties</span></h3>
+                            <p className="md:mb-4 text-[10px] md:text-sm">Explore our wide variety of properties to find your dream home today.</p>
                             <div className='flex justify-end'>
-                                <button className="bg-[#ffffff] text-black font-extralight p-3 m-[2px] rounded-full">
-                                <FaArrowRight />
+                                <button className="bg-[#ffffff] text-black font-extralight p-2 md:p-3 m-[2px] rounded-full">
+                                <FaArrowRight className='w-4 h-4' />
                                 </button>
                             </div>
                         </div>
