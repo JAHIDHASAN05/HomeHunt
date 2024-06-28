@@ -20,14 +20,12 @@ const Banner = () => {
     </span>
 
     return (
-        <section className="md:px-10 py-5" style={{
+        <section className="md:px-10 px-1 py-5 flex flex-col items-center justify-between " style={{
             backgroundImage: `url(${BannerBg.src})`, backgroundSize: 'cover', height: '80vh', backgroundPosition: 'center', width: '100%',
         }}>
 
-
-            <NavbarContainer />
-
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
+         <NavbarContainer />
+            <div className="mb-10 md:mb-20 w-full inset-0 flex flex-col items-center justify-center text-center text-white p-4">
                 <button className="bg-transparent border border-[#1F4B43] py-2 px-4 rounded-full mb-4 text-[10px] font-semibold text-[#1F4B43]">LET US GUIDE YOUR HOME</button>
                 <h1 className="text-4xl font-bold mb-2 text-[#1F4B43]">Believe in finding it</h1>
                 <p className="text-[#1F4B43] mb-6 text-[10px] font-semibold">Search properties for sale and to rent in the UK</p>

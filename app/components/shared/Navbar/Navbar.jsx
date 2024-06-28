@@ -58,7 +58,7 @@ const Navbar = ({isOpen ,setIsOpen}) => {
     </>
 
     return (
-        <nav className="bg-white  rounded-2xl md:rounded-full">
+        <nav className={` ${isOpen && 'rounded-b-none'} relative bg-white  rounded-2xl md:rounded-full  w-full`}>
 
             <div className=" mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-12">
@@ -83,7 +83,7 @@ const Navbar = ({isOpen ,setIsOpen}) => {
             </div>
 
             {isOpen && (
-                <div className="md:hidden">
+                <div className="md:hidden absolute bg-white w-full rounded-b-xl">
                     <div className="px-2 pt-2 pb-3 space-y-1 border flex flex-col items-center sm:px-3">
                         {navItems}
                     </div>
