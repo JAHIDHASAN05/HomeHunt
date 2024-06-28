@@ -8,6 +8,17 @@ import { PiToiletBold } from "react-icons/pi";
 
 const properties = [
     {
+        title: "North Dillard Street",
+        address: "4330 Bell Shoals Rd",
+        price: "$250/month",
+        beds: 4,
+        baths: 2,
+        area: 400,
+        type: "for rent",
+        featured: false,
+        image: "https://as1.ftcdn.net/v2/jpg/03/92/14/30/1000_F_392143036_9pLBCZjMpkslgJxyL2YpJZhAy0ns5A35.jpg",
+    },
+    {
         title: "Luxury Family Home",
         address: "1800-1818 79th St",
         price: "$395,000",
@@ -30,17 +41,7 @@ const properties = [
         image: "https://img.freepik.com/premium-photo/exterior-view-modern-white-house-generative-ai_834602-3549.jpg?w=740",
 
     },
-    {
-        title: "North Dillard Street",
-        address: "4330 Bell Shoals Rd",
-        price: "$250/month",
-        beds: 4,
-        baths: 2,
-        area: 400,
-        type: "for rent",
-        featured: false,
-        image: "https://as1.ftcdn.net/v2/jpg/03/92/14/30/1000_F_392143036_9pLBCZjMpkslgJxyL2YpJZhAy0ns5A35.jpg",
-    },
+   
     {
         title: "Eaton Garth Penthouse",
         address: "7722 18th Ave, Brooklyn",
